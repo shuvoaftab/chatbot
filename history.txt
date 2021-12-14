@@ -1,0 +1,365 @@
+    1  su
+    2  sudo -i
+    3  python3 chatbot2.py
+    4  clear
+    5  python3 chatbot2.py
+    6  python3 chatbot_ibrahim.py
+    7  clear
+    8  python3 chatbot_ibrahim.py
+    9  clear
+   10  python3 chatbot_ibrahim.py
+   11  clear
+   12  python3 chatbot_ibrahim.py
+   13  . ~/.profile
+   14  python3 chatbot_ibrahim.py
+   15  clear
+   16  python3 chatbot_ibrahim.py
+   17  clear
+   18  python3 chatbot_ibrahim.py
+   19  clear
+   20  python3 chatbot_ibrahim.py
+   21  clear
+   22  python3 chatbot_ibrahim.py
+   23  exit
+   24  man man
+   25  man who
+   26  man cat
+   27  who -h
+   28  who --help
+   29  who -a
+   30  man who
+   31  man --help
+   32  clear
+   33  cat --help
+   34  who --help
+   35  shutdown --help
+   36  logout --help
+   37  man logout
+   38  clear
+   39  cal --help
+   40  man cal
+   41  cd desktop
+   42  cd Desktop
+   43  ls -al
+   44  man cal > cal.txt
+   45  man logout > logout.html
+   46  pwd --help
+   47  man pwd
+   48  pwd -LP
+   49  pwd -L
+   50  pwd -P
+   51  pwd
+   52  clear
+   53  cal -h
+   54  finger --help
+   55  apt install finger
+   56  sudo -i
+   57  cd Desktop
+   58  ls
+   59  cd OS LAB
+   60  cd 'OS LAB'
+   61  ls -al
+   62  clear
+   63  man man > man.txt
+   64  man who > who.txt
+   65  man cat > cat.txt
+   66  man cd > cd.txt
+   67  man cp > cp.txt
+   68  man ps > ps.txt
+   69  man ls > ls.txt
+   70  man mv > mv.txt
+   71  man rm > rm.txt
+   72  man mkdir > mkdir.txt
+   73  man rmdir > rmdir.txt
+   74  man echo > echo.txt
+   75  man more > more.txt
+   76  man less > less.txt
+   77  man date > date.txt
+   78  man time > time.txt
+   79  man kill > kill.txt
+   80  man history > history.txt
+   81  man chmod > chmod.txt
+   82  man chown > chown.txt
+   83  man finger > finger.txt
+   84  man pwd > pwd.txt
+   85  man shutdown >shutdown.txt
+   86  clear
+   87  clear
+   88  ls -al
+   89  sudo -i
+   90  clear
+   91  cd ~
+   92  cat .bash_history
+   93  cat .bash_history | grep python3
+   94  echo 'echo script' > script.sh
+   95  sh script.sh
+   96  cat script.sh
+   97  top
+   98  clear
+   99  logout
+  100  cd ..
+  101  clear
+  102  ls -al
+  103  ls
+  104  ls -a
+  105  clear
+  106  ls /
+  107  ls / -la
+  108  ls -al
+  109  ls
+  110  clear
+  111  ls -a
+  112  cat .bashrc
+  113  cat .profile
+  114  sudo -i
+  115  clear
+  116  cd Desktop
+  117  cd OS
+  118  clear
+  119  ls -al
+  120  ls -al folder1/
+  121  rm folder1/*
+  122  ls -al
+  123  rm -i time.txt
+  124  clear
+  125  ls -al
+  126  ls -al emptydir
+  127  rmdir emptydir
+  128  ls -al
+  129  rmdir folder1
+  130  ls -al
+  131  rmclear
+  132  clear
+  133  ls -al
+  134  rmdir -p -v folder2
+  135  clear
+  136  ls -al
+  137  clear
+  138  ls -al
+  139  rmdir empty1/empty2 empty1 -v
+  140  clear
+  141  time
+  142  time -p
+  143  time wget https://wordpress.org/latest.tar.gz
+  144  time -v wget https://wordpress.org/latest.tar.gz
+  145  /usr/bin/time -v wget https://wordpress.org/latest.tar.gz
+  146  time -o down.log wget https://wordpress.org/latest.tar.gz
+  147  /usr/bin/time -o down.log wget https://wordpress.org/latest.tar.gz
+  148  ls -al | grep down.log
+  149  cat down.log
+  150  clear
+  151  who
+  152  who am i
+  153  clear
+  154  who
+  155  whoami
+  156  who -H
+  157  who -p
+  158  who -a
+  159  celar
+  160  clear
+  161  echo hello world
+  162  man echo
+  163  echo --help
+  164  echo --h
+  165  clear
+  166  echo hello world
+  167  echo $SHELL
+  168  ls -al
+  169  mkdir ques4
+  170  cd ques4
+  171  clear
+  172  ls -al
+  173  touch sedtest
+  174  vi sedtest
+  175  cat sedtest
+  176  clear
+  177  cp sedtest sedtest2
+  178  ls -al
+  179  clear
+  180  sed 's/a//g' sedtest
+  181  clear
+  182  cp sedtest2 sedtest
+  183  cat sedtest
+  184  clear
+  185  sed 's/^.//' sedtest
+  186  sed 's/.$//' sedtest
+  187  sed 's/.//;s/.$//' sedtest
+  188  grep -c This sedtest
+  189  read x && echo $x
+  190  echo 'Enter filename: like sedtest' && read x && sed 's/.//;s/.$//' $x
+  191  echo 'Enter Word: like This' && read x && echo 'Enter filename: like sedtest' && read y && grep -c $x $y
+  192  clear
+  193  cd ..
+  194  clear
+  195  who > myfile1
+  196  more myfile1
+  197  clear
+  198  date && who > myfile2
+  199  more myfile2
+  200  ls -al
+  201  cd ques4
+  202  ls
+  203  clear
+  204  sed -e "s/\([^ ]*\) *\([^ ]*\)/\2 \1 /g" sedtest
+  205  clear
+  206  echo $SHELL
+  207  touch q8.sh
+  208  vi q8.sh
+  209  sh q8.sh
+  210  time sh q8.sh
+  211  touch q8c.sh
+  212  rm q8c.sh
+  213  clear
+  214  ls -al
+  215  touch q8.c
+  216  vi q8.c
+  217  gcc q8.c -o q8
+  218  ./q8
+  219  gcc q8.c -o q8
+  220  ./q8
+  221  time sh q8.sh && time ./q8
+  222  t1=$(time sh q8.sh) && t2=$( time ./q8) && difference=$t1-$t2 && echo $difference
+  223  history
+  224  cd ../shell
+  225  celar
+  226  touch 9.sh
+  227  clear
+  228  ls -al
+  229  clear
+  230  ls /dev
+  231  clear
+  232  sh 9.sh
+  233  ./9.sh
+  234  clear
+  235  sh 9.sh
+  236  clear
+  237  sh 10.sh
+  238  clear
+  239  sh 1b.sh
+  240  clear
+  241  sh 10.sh
+  242  clear
+  243  sh 10.sh
+  244  clear
+  245  sh 9.sh
+  246  celar\
+  247  clear
+  248  sh 9.sh
+  249  celar
+  250  clear
+  251  sh 11.sh
+  252  w -h root | awk '{print $1,"\t",$3}'
+  253  w -h shuvoaftab | awk '{print $1,"\t",$3}'
+  254  sh 11.sh
+  255  sh 11b.sh
+  256  clear
+  257  sh 12.sh
+  258  sh 13.sh
+  259  sh 14.sh
+  260  celar
+  261  sh 14.sh
+  262  clear
+  263  sh 14.sh
+  264  clear
+  265  sh 13.sh
+  266  clear
+  267  sh 10.sh
+  268  sh 12.sh
+  269  clear
+  270  sh 12.sh
+  271  clear
+  272  sh 13.sh
+  273  clear
+  274  sh 13.sh
+  275  clear
+  276  sh 14.sh
+  277  clear
+  278  sh 14.sh
+  279  sh 11b.sh
+  280  clear
+  281  sh 11b.sh
+  282  sh 11.sh
+  283  clear
+  284  sh 11.sh
+  285  apt upgrade -y
+  286  apt upgrade
+  287  clear
+  288  sudo -i
+  289  htop
+  290  clear
+  291  sudo -i
+  292  python3 chatbot_ibrahim.py
+  293  last shuvoaftab
+  294  pip install flask
+  295  python3 chatbot_ibrahim.py
+  296  clear
+  297  python3 flask.py
+  298  pip install flask
+  299  sudo -i
+  300  python3 -m venv venv
+  301  source venv/bin/activate
+  302  pip install Flask
+  303  python -m flask --version
+  304  clear
+  305  pip install chatterbot
+  306  apt-get install python3-dev
+  307  sudo apt-get install python3-dev
+  308  sudo apt-get install python-dev
+  309  sudo apt-get install build-essential autoconf libtool pkg-config python-opengl python-pil python-pyrex python-pyside.qtopengl idle-python2.7 qt4-dev-tools qt4-designer libqtgui4 libqtcore4 libqt4-xml libqt4-test libqt4-script libqt4-network libqt4-dbus python-qt4 python-qt4-gl libgle3 python-dev libssl-dev
+  310  pip install chatterbot
+  311  sudo apt-get install libpq-dev python-dev libxml2-dev libxslt1-dev libldap2-dev libsasl2-dev libffi-dev
+  312  sudo pip install chatterbot
+  313  python3 --version
+  314  git clone https://github.com/gunthercox/ChatterBot.git
+  315  apt get install git
+  316  sudo apt-get install git
+  317  git clone https://github.com/gunthercox/ChatterBot.git
+  318  pip install ./ChatterBot
+  319  pip install chatterbot==1.0.5
+  320  pip install -U pip setuptools wheel
+  321  pip install blis
+  322  pip install chatterbot==1.0.5
+  323  clear
+  324  python3 chatbot_ibrahim.py
+  325  clear
+  326  python -m chatterbot --version
+  327  python3 -m chatterbot --version
+  328  pip install chatterbot_corpus
+  329  clear
+  330  python -m chatterbot --version
+  331  python3 chatbot_ibrahim.py
+  332  clear
+  333  python3 chatbotweb.py
+  334  clear
+  335  python3 chatbot_ibrahim.py
+  336  clear
+  337  python3 chatbot_ibrahim.py
+  338  clear
+  339  python3 chatbot_ibrahim.py
+  340  clear
+  341  python3 chatbot_ibrahim.py
+  342  source /home/shuvoaftab/Desktop/chatbotweb/venv/bin/activate
+  343  clear
+  344  sudo -i
+  345  source /home/shuvoaftab/Desktop/chatbotweb/venv/bin/activate
+  346  tldr sed
+  347  tldr
+  348  tldr --update
+  349  clear
+  350  tldr sed
+  351  celar
+  352  clear
+  353  tldr sed
+  354  clear
+  355  tldr grep
+  356  ls -al
+  357  cat .bash_history 
+  358  tldr grep
+  359  grep --context=3 python .bash_history 
+  360  grep --context=3 home  .bash_history 
+  361  grep --context=1 home  .bash_history 
+  362  clear
+  363  source /home/shuvoaftab/Desktop/chatbotweb/venv/bin/activate
+  364  history
+  365  history > history.txt
